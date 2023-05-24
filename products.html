@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>E-Commerce Website</h1>
+    <nav>
+      <ul>
+	    <li><a href="C:\Users\garvi\Desktop\Project\images\Lunch-Bag-Hangry-Bearecoright-247.webp">Home</a></li>                  
+        <li><a href="C:\Users\garvi\Desktop\Project\index.html">Home</a></li>
+        <li><a href="C:\Users\garvi\Desktop\Project\products.html">Products</a></li>
+        <li><a href="C:\Users\garvi\Desktop\Project\cart.html">Cart</a></li>
+        <li><a href="C:\Users\garvi\Desktop\Project\contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Featured Products</h2>
+    <div class="product">
+      <div class="product-images">
+        <img src="C:\Users\garvi\Desktop\Project\images\Lunch-Bag-Hangry-Bearecoright-30.webp" alt="Product 1">
+          <img src="C:\Users\garvi\Desktop\Project\images\Lunch-Bag-Hangry-Bearecoright-439.webp" alt="Product 1">
+          <img src="C:\Users\garvi\Desktop\Project\images\Lunch-Bag-Hangry-Bearecoright-864.webp" alt="Product 1">
+        </div>
+      <h3>Lunch Bag</h3>
+      <p>Sometimes you're just hangry and only a nice warm meal can make it better! That's how Polar Bears feel too, but unfortunately, global warming is taking away their food! No wonder they're HANGRY!</p>
+      <span class="price">$19.99</span>
+      <button onclick="addToCart('Lunch Bag', 19.99)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <div class="product-images">
+        <img src="C:\Users\garvi\Desktop\Project\images/Black.webp" alt="Product 2">
+      </div>
+      <h3>Water Bottle</h3>
+      <p>CLASSIC, MINIMAL & TIMELESS</p>
+      <p>Designed with delicate, muted hues and sophisticated patterns, Unbottle will enhance your home and office spaces, brighten your walks and workout sessions.</p>
+      <span class="price">$24.99</span>
+      <button onclick="addToCart('Water Bottle', 24.99)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <div class="product-images">
+        <video width="320" height="240" controls>
+          <source src="C:\Users\garvi\Desktop\Project\images\b138226ca6cd4d69802c6887b3655e84.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <h3>Video Product</h3>
+      <p>This is a video product.</p>
+      <span class="price">$34.99</span>
+      <button onclick="addToCart('Video Product', 34.99)">Add to Cart</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 E-Commerce Website. All rights reserved.</p>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>
